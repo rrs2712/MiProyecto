@@ -12,6 +12,7 @@ public class App {
 
 		System.out.println("Hello World!");
 		System.out.println("Testing update 1 in GIT");
+		System.out.println("It works on lenovo as well");
 
 		Matematicas ext = new MateImplExt();
 
