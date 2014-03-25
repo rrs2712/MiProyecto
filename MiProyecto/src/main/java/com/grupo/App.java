@@ -10,14 +10,15 @@ public class App {
 
 	public static void main(String[] args) {
 
-		System.out.println("Hello World!");
-		System.out.println("Testing update 1 in GIT");
-		System.out.println("It works on lenovo as well");
+		System.out.println("Working with branch: DisplayData");
+		System.out.println("--------------------------------");
+		System.out.println("A=5 & B=10 Therefore");
 
 		Matematicas ext = new MateImplExt();
-
-		int resul = ((MateImplExt) ext).resta(10, 2);
-		System.out.println("multi=" + ((MateImplExt) ext).multiplica(5, 2));
+		int a=5, b=10;
+		
+		System.out.println("Suma=" + ext.suma(a, b));
+		System.out.println("Multi=" + ((MateImplExt)ext).multiplica(a, b));
 
 	}
 }
