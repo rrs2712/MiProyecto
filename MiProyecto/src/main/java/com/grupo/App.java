@@ -10,9 +10,8 @@ public class App {
 
 	public static void main(String[] args) {
 
-		System.out.println("Hello World!");
-		System.out.println("Testing update 1 in GIT");
-		System.out.println("It works on lenovo as well");
+		System.out.println("Working with branch: DisplayData");
+		System.out.println("--------------------------------");
 
 		Matematicas ext = new MateImplExt();
 
