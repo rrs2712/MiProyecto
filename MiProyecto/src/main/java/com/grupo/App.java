@@ -12,11 +12,13 @@ public class App {
 
 		System.out.println("Working with branch: DisplayData");
 		System.out.println("--------------------------------");
+		System.out.println("A=5 & B=10 Therefore");
 
 		Matematicas ext = new MateImplExt();
-
-		int resul = ((MateImplExt) ext).resta(10, 2);
-		System.out.println("multi=" + ((MateImplExt) ext).multiplica(5, 2));
+		int a=5, b=10;
+		
+		System.out.println("Suma=" + ext.suma(a, b));
+		System.out.println("Multi=" + ((MateImplExt)ext).multiplica(a, b));
 
 	}
 }
